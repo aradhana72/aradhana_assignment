@@ -1,0 +1,12 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 40px 6px 40px;
+  }
+  
+  .flex-item {
+    padding: 10px;
+    font-size: larger;
+    font-weight: 400;
+  }
+

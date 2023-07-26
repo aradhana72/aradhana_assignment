@@ -1,0 +1,49 @@
+/* NavBar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .flex-item {
+    padding: 10px;
+    font-size: larger;
+    font-weight: 400;
+  }
+
+ /* Style for the modal overlay */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+/* Style for the modal content */
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  max-width: 400px; 
+  margin-right: 16px;
+  margin-top: 48px;
+  text-align: left; 
+}
+
+.innerContentFlex {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.redCol {
+  color: red;
+}

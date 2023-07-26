@@ -1,0 +1,14 @@
+
+.greyCol {
+    color: #AEB8C4; 
+  }
+
+  .blackCol {
+    color: #121212;
+  }
+
+  .whiteBg {
+    background-color: #fff;
+    border-radius: 16px;
+    margin-top: 20px;
+  }

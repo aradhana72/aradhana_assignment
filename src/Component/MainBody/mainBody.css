@@ -1,0 +1,112 @@
+.mainBody {
+    background-color: #f3f6f9;
+    padding: 20px 30px 20px 30px;
+}
+
+.cardFlex {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 0px 20px;
+}
+
+.flexInner {
+    display: flex;
+    gap: 14px
+}
+
+.leftMargin {
+    margin-left: 20px;
+} 
+
+.largeText p{
+    color: #4c5968;
+    font-weight: 500;
+    font-size: 22px;
+    margin-top: 4px;
+}
+
+.greyText {
+    color: #aeb8c4;
+    font-weight: 500;
+}
+
+#mTop {
+    margin-top: -45px;
+}
+
+.statusLoss {
+    background-color: #ee485d;
+    width: 28%;
+    height: 1.5em;
+    margin-top: 0.5em;
+    border-radius: 500px;
+    padding-top: 8px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.statusTab {
+    background-color: #aeb8c4;
+    width: 25%;
+    height: 1.5em;
+    margin-top: 0.5em;
+    border-radius: 500px;
+    padding-top: 8px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.tabsFlex {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px;
+}
+
+.leftMargin p {
+    color: #4c5968;
+    font-weight: 500;
+}
+
+.upperMargin { 
+    margin-top: -10px;
+}
+
+.upperMargin p {
+    font-size: smaller;
+}
+
+.smallText {
+    font-size: smaller;
+}
+
+.cardsContainer {
+    display: flex;
+    justify-content: space-around; /* This will distribute the cards evenly along the main axis */
+    align-items: center; /* This will center the cards along the cross axis */
+    gap: 26px; /* This will create a gap between the cards */
+    padding-top: 20px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    min-width: 100px; /* Adjust the minimum width to your needs */
+    height: 84px;
+  }
+  
+ 
+  .redDot {
+    color: red;
+  }
+
+  .greenDot {
+    color: greenyellow;
+  }
+
+  .marginTopReq {
+    margin-top: 22px;
+  }
